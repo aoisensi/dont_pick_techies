@@ -1,0 +1,10 @@
+<root>
+	<script>
+		if("npc_dota_hero_techies" === Players.GetPlayerSelectedHero(Game.GetLocalPlayerID())) {
+            $.Msg("Booooooooooooooooooooooooooooooooooom");
+            $.Msg($.Localize("illegal_text"));
+        }
+	</script>
+		
+	<Panel />
+</root>
